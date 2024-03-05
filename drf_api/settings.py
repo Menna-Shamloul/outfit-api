@@ -84,8 +84,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth.registration',
     
-    
-
     'profiles',
     'posts',
     'comments',
