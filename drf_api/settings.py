@@ -64,7 +64,7 @@ DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-mennashamloul-outfitapi-jbimn0mzf99.ws-eu108.gitpod.io',
-    'outfit-backend.herokuapp.com',
+    'outfit-backend-797953668660.herokuapp.com',
 ]
 
 
