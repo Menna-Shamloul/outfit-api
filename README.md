@@ -135,4 +135,34 @@ The outfits API has also gone through integration testing via testing the featur
 - The only issues I did not fix are the line too long warnings from the automatically generated settings.py variable which contains long strings. 
     - I left these strings intact rather than breaking them up into smaller strings for the sake of avoiding potential issues.
 
+[Back to top](#contents)
+
+## **Bugs**
+### **Bugs encountered during development**
+* The login functionality doesnt work in my phone.
+
+[Back to top](#)
+## **Technologies** 
+### **Languages used**
+- [Python](https://www.python.org/) 
+
+- [HTML](https://www.w3schools.com/html/html_intro.asp)
+
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+
+- [JS](https://reactjs.org/)
+
+### **Databases**
+- [Postgresql](https://www.postgresql.org/)
+
+### **Cloud storage and deployment services**
+- [Cloudinary](https://cloudinary.com/)
+    - Used to store media files and images.
+- [Heroku](https://www.heroku.com/)
+    - Used to host the deployed sitewhat
+- [ElephantSQL]() 
+   - Used to host and operate the PostgresSQL database
+
+[Back to top](#contents)
+
 
