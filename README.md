@@ -1,39 +1,50 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Outfits API
+#
+This is the backend api for the outfits Frontend React app. It contains the models and logic to allow the frontend application to perform CRUD operations.
 
-Welcome,
+#
+* [Deployed Back-End page](https://outfit-backend-797953668660.herokuapp.com/)
+* [Deployed Front-End page](https://outfit-ms-4ee7085bae68.herokuapp.com/)
+#
+## **Contents**
+- [**Planning and Project Conception**](#planning-and-project-conception)
+	    - [**Project Goals**](#project-goals)
+	    - [**Site Goals**](#site-goals)
+	    - [**Future Goals**](#future-goals)
+	    - [**Agile Planning**](#agile-planning)
+		        - [**GitHub Project Board**](#github-project-board)
+		        - [**Github Issues**](#github-issues)
+		        - [**ERD Plan for backend models**](#erd-plan-for-backend-models)
+		        - [**API Endpoints**](#api-endpoints)
+- [**Testing**](#testing)
+	    - [**Manual Testing**](#manual-testing)
+	    - [**Test cases**](#test-cases)
+	    - [**Integration Testing**](#integration-testing)
+	    - [**Code Validation**](#code-validation)
+- [**Bugs**](#bugs)
+	    - [**Bugs encountered during development**](#bugs-encountered-during-development)
+- [**Technologies**](#technologies)
+	    - [**Languages used**](#languages-used)
+	    - [**Databases**](#databases)
+	    - [**Cloud storage and deployment services**](#cloud-storage-and-deployment-services)
+	    - [**Frameworks, tools and libraries**](#frameworks-tools-and-libraries)
+		        - [API Back-End](#api-back-end)
+		        - [REACT Front-End](#react-front-end)
+	    - [**Installed Libraries and packages**](#installed-libraries-and-packages)
+- [**Deployment**](#deployment)
+	    - [Steps to set up and deploy the project:](#steps-to-set-up-and-deploy-the-project)
+		        - [**Gitpod**](#gitpod)
+		        - [**ElephantSQL**](#elephantsql)
+		        - [**Environemental variables and settings.py**](#environemental-variables-and-settingspy)
+		        - [**Heroku**](#heroku)
+	    - [**Connect a Frontend app with the Backend API**](#connect-a-frontend-app-with-the-backend-api)
+		        - [**API Heroku config vars settings**](#api-heroku-config-vars-settings)
+		        - [**Axios library**](#axios-library)
+		        - [**Steps to Fork the repository**](#steps-to-fork-the-repository)
+		        - [**Steps to clone the repository**](#steps-to-clone-the-repository)
+- [**Credits**](#credits)
+	    - [Code Institute](#code-institute)
+	    - [Resources for creating the rating field in post model:](#resources-for-creating-the-rating-field-in-post-model)
+	    - [Bug fixes sources:](#bug-fixes-sources)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
