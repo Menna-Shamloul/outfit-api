@@ -79,7 +79,7 @@ This is the backend api for the outfits Frontend React app. It contains the mode
  * Most of the models are the same except for the post model which has been customised to better suit the needs of the site owner and users.
  * Initial plans were to include an event model, but that has been assigned as a future feature to help focus on the minimal viable product of  the site. 
 
-![Database]()
+![Database](readme/re_image.jpg)
 
 [Back to top](#contents)
 
