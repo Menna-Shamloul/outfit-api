@@ -101,6 +101,10 @@ likes/
 likes/<int:pk>/
 followers/
 followers/<int:pk>/
+contacts/
+contacts/<int:pk>/
+reviews/
+reviews/<int:pk>/
 ```
 [Back to top](#contents)
 
@@ -116,7 +120,7 @@ Below are some test cases that were implemented throughout development to check 
 - Check that access to post, comments, profiles, followers and likes POST, PUT and DELETE Metods are restricted to authorised users. 
 - Get methods are checked via api endpoints.
 - Filter function was checked using keywords.
-- POST method was tested for Posts, comments, likes and followers
+- POST method was tested for Posts, comments, likes, contacts, reviews and followers
 - POST method for dj-rest-auth/registration/ to create a profile tested
 - POST method for /dj-rest-auth/password/change/ to change password tested
 - PUT mehtod for profiles/id, posts/id and comments/id tested
